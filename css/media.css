@@ -1,0 +1,99 @@
+@media all and (min-width:0px) {
+    .navbar {
+        background-color: white;
+    }
+
+    .nav-link::after {
+        left: 0px;
+    }
+
+    .home .text .card-title {
+        font-size: 3rem;
+    }
+
+    .home .text .card-subtitle {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+
+    .card-footer img {
+        width: 25%;
+    }
+
+    .contact .contact-content {
+        padding: 3rem 2.25rem;
+    }
+
+}
+
+@media all and (min-width:576px) {
+    .navbar {
+        background-color: white;
+    }
+
+    .nav-link::after {
+        left: 0px;
+    }
+
+    .home .text .card-title {
+        font-size: 3rem;
+    }
+
+    .home .text .card-subtitle {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+
+    .counter-box {
+        margin-bottom: 1.8rem;
+    }
+
+    .card-footer img {
+        width: 25%;
+    }
+
+    .contact .contact-content {
+        padding: 3rem 2.25rem;
+    }
+
+}
+
+@media all and (min-width:768px) {
+    .about-sec .box {
+        padding: 4rem 3rem;
+    }
+
+    .about-image img {
+        width: 100%;
+    }
+
+    .item-text {
+        padding: 0 5rem;
+    }
+
+    .card-blog {
+        margin-bottom: 3rem;
+    }
+
+    .contact .contact-content {
+        padding: 3rem;
+    }
+}
+
+@media all and (min-width:992px) {
+    .item-text {
+        padding: 0 8rem;
+    }
+}
+
+@media all and (min-width:1200px) {
+    .item-text {
+        padding: 0 13rem;
+    }
+}
+
+@media all and (min-width:1400px) {
+    .container {
+        max-width: 1140px;
+    }
+}

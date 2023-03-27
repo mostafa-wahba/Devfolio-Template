@@ -1,0 +1,1399 @@
+body {
+    height: auto;
+    background-color: #f5f5f5;
+    color: #4e4e4e;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+span {
+    color: #4e4e4e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #1e1e1e;
+
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.navbar {
+    -webkit-box-shadow: 0px 6px 9px 0px rgb(0 0 0 / 6%);
+    box-shadow: 0px 6px 9px 0px rgb(0 0 0 / 6%);
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.navbar-brand {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.nav-link {
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.nav-link::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: var(--bs-primary);
+    position: absolute;
+    bottom: 0px;
+    left: 0.5rem;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.nav-link:hover::after {
+    width: 2.25rem;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(13,110,253, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-toggler {
+    border-color: rgb(13, 110, 253) !important;
+}
+
+.home {
+    background-image: url(../images/intro-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.home::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.home .text .title {
+    font-size: 4.5rem;
+}
+
+.home .text .subtitle {
+    font-size: 2.5rem;
+}
+
+.home .text .subtitle::after {
+    content: "|";
+    -webkit-animation: typing 10s infinite;
+    animation: typing 10s infinite;
+}
+
+@-webkit-keyframes typing {
+    0% {
+        content: "|";
+
+    }
+
+    1.5% {
+        content: "C|";
+    }
+
+    3% {
+        content: "CE|";
+    }
+
+    4.5% {
+        content: "CEO|";
+    }
+
+    6% {
+        content: "CEO |";
+    }
+
+    7.5% {
+        content: "CEO D";
+    }
+
+    9% {
+        content: "CEO De|";
+    }
+
+    10.5% {
+        content: "CEO Dev|";
+    }
+
+    12% {
+        content: "CEO DevF|";
+    }
+
+    13.5% {
+        content: "CEO DevFo|";
+    }
+
+    15% {
+        content: "CEO DevFol|";
+    }
+
+    16.5% {
+        content: "CEO DevFoli|";
+    }
+
+    18% {
+        content: "CEO DevFolio|";
+    }
+
+    19% {
+        content: "CEO DevFolio|";
+    }
+
+    19.2% {
+        content: "CEO DevFol|";
+    }
+
+    19.4% {
+        content: "CEO Dev|";
+    }
+
+    19.6% {
+        content: "CEO D|";
+    }
+
+    19.8% {
+        content: "CE|";
+    }
+
+    20% {
+        content: "|";
+    }
+
+    21.5% {
+        content: "W|";
+    }
+
+    23% {
+        content: "We|";
+    }
+
+    24.5% {
+        content: "Web|";
+    }
+
+    26% {
+        content: "Web |";
+    }
+
+    27.5% {
+        content: "Web D";
+    }
+
+    29% {
+        content: "Web De|";
+    }
+
+    30.5% {
+        content: "Web Dev|";
+    }
+
+    32% {
+        content: "Web Deve|";
+    }
+
+    33.5% {
+        content: "Web Devel|";
+    }
+
+    35% {
+        content: "Web Develo|";
+    }
+
+    36.5% {
+        content: "Web Develop|";
+    }
+
+    38% {
+        content: "Web Developer|";
+    }
+
+    39% {
+        content: "Web Developer|";
+    }
+
+    39.2% {
+        content: "Web Develop|";
+    }
+
+    39.4% {
+        content: "Web Deve|";
+    }
+
+    39.6% {
+        content: "Web De|";
+    }
+
+    39.8% {
+        content: "Web|";
+    }
+
+    40% {
+        content: "|";
+    }
+
+    41.5% {
+        content: "W|";
+    }
+
+    43% {
+        content: "We|";
+    }
+
+    44.5% {
+        content: "Web|";
+    }
+
+    46% {
+        content: "Web |";
+    }
+
+    47.5% {
+        content: "Web D";
+    }
+
+    49% {
+        content: "Web De|";
+    }
+
+    51.5% {
+        content: "Web Des|";
+    }
+
+    52% {
+        content: "Web Desi|";
+    }
+
+    53.5% {
+        content: "Web Desig|";
+    }
+
+    55% {
+        content: "Web Design|";
+    }
+
+    56.5% {
+        content: "Web Designe|";
+    }
+
+    58% {
+        content: "Web Designer|";
+    }
+
+    59% {
+        content: "Web Designer|";
+    }
+
+    59.2% {
+        content: "Web Design|";
+    }
+
+    59.4% {
+        content: "Web Desig|";
+    }
+
+    59.6% {
+        content: "Web D|";
+    }
+
+    59.8% {
+        content: "We|";
+    }
+
+    60% {
+        content: "|";
+    }
+
+    61% {
+        content: "F|";
+    }
+
+    62% {
+        content: "Fr|";
+    }
+
+    63% {
+        content: "Fro|";
+    }
+
+    64% {
+        content: "Fron|";
+    }
+
+    65% {
+        content: "Front|";
+    }
+
+    66% {
+        content: "Fronte|";
+    }
+
+    67% {
+        content: "Fronten|";
+    }
+
+    68% {
+        content: "Frontend|";
+    }
+
+    69% {
+        content: "Frontend |";
+    }
+
+    70% {
+        content: "Frontend D|";
+    }
+
+    71% {
+        content: "Frontend De|";
+    }
+
+    72% {
+        content: "Frontend Dev|";
+    }
+
+    73% {
+        content: "Frontend Deve|";
+    }
+
+    74% {
+        content: "Frontend Devel|";
+    }
+
+    75% {
+        content: "Frontend Develo|";
+    }
+
+    76% {
+        content: "Frontend Develop|";
+    }
+
+    77% {
+        content: "Frontend Develope|";
+    }
+
+    78% {
+        content: "Frontend Developer|";
+    }
+
+    79% {
+        content: "Frontend Developer|";
+    }
+
+    79.2% {
+        content: "Frontend Devel|";
+    }
+
+    79.4% {
+        content: "Frontend D|";
+    }
+
+    79.6% {
+        content: "Fronte|";
+    }
+
+    79.8% {
+        content: "Fr|";
+    }
+
+    80% {
+        content: "|";
+    }
+
+    81.125% {
+        content: "G|";
+    }
+
+    82.25% {
+        content: "Gr|";
+    }
+
+    83.375% {
+        content: "Gra|";
+    }
+
+    84.5% {
+        content: "Grap|";
+    }
+
+    85.625% {
+        content: "Graph|";
+    }
+
+    86.75% {
+        content: "Graphi|";
+    }
+
+    87.875% {
+        content: "Graphic|";
+    }
+
+    89% {
+        content: "Graphic |";
+    }
+
+    91.125% {
+        content: "Graphic D|";
+    }
+
+    92.25% {
+        content: "Graphic De|";
+    }
+
+    93.375% {
+        content: "Graphic Des|";
+    }
+
+    94.5% {
+        content: "Graphic Desi|";
+    }
+
+    95.625% {
+        content: "Graphic Desig|";
+    }
+
+    96.75% {
+        content: "Graphic Design|";
+    }
+
+    97.875% {
+        content: "Graphic Designer|";
+    }
+
+    99% {
+        content: "Graphic Designer|";
+    }
+
+    99.2% {
+        content: "Graphic Desig|";
+    }
+
+    99.4% {
+        content: "Graphic De|";
+    }
+
+    99.6% {
+        content: "Graphic|";
+    }
+
+    99.8% {
+        content: "Grap|";
+    }
+
+    100% {
+        content: "|";
+    }
+}
+
+@keyframes typing {
+    0% {
+        content: "|";
+
+    }
+
+    1.5% {
+        content: "C|";
+    }
+
+    3% {
+        content: "CE|";
+    }
+
+    4.5% {
+        content: "CEO|";
+    }
+
+    6% {
+        content: "CEO |";
+    }
+
+    7.5% {
+        content: "CEO D";
+    }
+
+    9% {
+        content: "CEO De|";
+    }
+
+    10.5% {
+        content: "CEO Dev|";
+    }
+
+    12% {
+        content: "CEO DevF|";
+    }
+
+    13.5% {
+        content: "CEO DevFo|";
+    }
+
+    15% {
+        content: "CEO DevFol|";
+    }
+
+    16.5% {
+        content: "CEO DevFoli|";
+    }
+
+    18% {
+        content: "CEO DevFolio|";
+    }
+
+    19% {
+        content: "CEO DevFolio|";
+    }
+
+    19.2% {
+        content: "CEO DevFol|";
+    }
+
+    19.4% {
+        content: "CEO Dev|";
+    }
+
+    19.6% {
+        content: "CEO D|";
+    }
+
+    19.8% {
+        content: "CE|";
+    }
+
+    20% {
+        content: "|";
+    }
+
+    21.5% {
+        content: "W|";
+    }
+
+    23% {
+        content: "We|";
+    }
+
+    24.5% {
+        content: "Web|";
+    }
+
+    26% {
+        content: "Web |";
+    }
+
+    27.5% {
+        content: "Web D";
+    }
+
+    29% {
+        content: "Web De|";
+    }
+
+    30.5% {
+        content: "Web Dev|";
+    }
+
+    32% {
+        content: "Web Deve|";
+    }
+
+    33.5% {
+        content: "Web Devel|";
+    }
+
+    35% {
+        content: "Web Develo|";
+    }
+
+    36.5% {
+        content: "Web Develop|";
+    }
+
+    38% {
+        content: "Web Developer|";
+    }
+
+    39% {
+        content: "Web Developer|";
+    }
+
+    39.2% {
+        content: "Web Develop|";
+    }
+
+    39.4% {
+        content: "Web Deve|";
+    }
+
+    39.6% {
+        content: "Web De|";
+    }
+
+    39.8% {
+        content: "Web|";
+    }
+
+    40% {
+        content: "|";
+    }
+
+    41.5% {
+        content: "W|";
+    }
+
+    43% {
+        content: "We|";
+    }
+
+    44.5% {
+        content: "Web|";
+    }
+
+    46% {
+        content: "Web |";
+    }
+
+    47.5% {
+        content: "Web D";
+    }
+
+    49% {
+        content: "Web De|";
+    }
+
+    51.5% {
+        content: "Web Des|";
+    }
+
+    52% {
+        content: "Web Desi|";
+    }
+
+    53.5% {
+        content: "Web Desig|";
+    }
+
+    55% {
+        content: "Web Design|";
+    }
+
+    56.5% {
+        content: "Web Designe|";
+    }
+
+    58% {
+        content: "Web Designer|";
+    }
+
+    59% {
+        content: "Web Designer|";
+    }
+
+    59.2% {
+        content: "Web Design|";
+    }
+
+    59.4% {
+        content: "Web Desig|";
+    }
+
+    59.6% {
+        content: "Web D|";
+    }
+
+    59.8% {
+        content: "We|";
+    }
+
+    60% {
+        content: "|";
+    }
+
+    61% {
+        content: "F|";
+    }
+
+    62% {
+        content: "Fr|";
+    }
+
+    63% {
+        content: "Fro|";
+    }
+
+    64% {
+        content: "Fron|";
+    }
+
+    65% {
+        content: "Front|";
+    }
+
+    66% {
+        content: "Fronte|";
+    }
+
+    67% {
+        content: "Fronten|";
+    }
+
+    68% {
+        content: "Frontend|";
+    }
+
+    69% {
+        content: "Frontend |";
+    }
+
+    70% {
+        content: "Frontend D|";
+    }
+
+    71% {
+        content: "Frontend De|";
+    }
+
+    72% {
+        content: "Frontend Dev|";
+    }
+
+    73% {
+        content: "Frontend Deve|";
+    }
+
+    74% {
+        content: "Frontend Devel|";
+    }
+
+    75% {
+        content: "Frontend Develo|";
+    }
+
+    76% {
+        content: "Frontend Develop|";
+    }
+
+    77% {
+        content: "Frontend Develope|";
+    }
+
+    78% {
+        content: "Frontend Developer|";
+    }
+
+    79% {
+        content: "Frontend Developer|";
+    }
+
+    79.2% {
+        content: "Frontend Devel|";
+    }
+
+    79.4% {
+        content: "Frontend D|";
+    }
+
+    79.6% {
+        content: "Fronte|";
+    }
+
+    79.8% {
+        content: "Fr|";
+    }
+
+    80% {
+        content: "|";
+    }
+
+    81.125% {
+        content: "G|";
+    }
+
+    82.25% {
+        content: "Gr|";
+    }
+
+    83.375% {
+        content: "Gra|";
+    }
+
+    84.5% {
+        content: "Grap|";
+    }
+
+    85.625% {
+        content: "Graph|";
+    }
+
+    86.75% {
+        content: "Graphi|";
+    }
+
+    87.875% {
+        content: "Graphic|";
+    }
+
+    89% {
+        content: "Graphic |";
+    }
+
+    91.125% {
+        content: "Graphic D|";
+    }
+
+    92.25% {
+        content: "Graphic De|";
+    }
+
+    93.375% {
+        content: "Graphic Des|";
+    }
+
+    94.5% {
+        content: "Graphic Desi|";
+    }
+
+    95.625% {
+        content: "Graphic Desig|";
+    }
+
+    96.75% {
+        content: "Graphic Design|";
+    }
+
+    97.875% {
+        content: "Graphic Designer|";
+    }
+
+    99% {
+        content: "Graphic Designer|";
+    }
+
+    99.2% {
+        content: "Graphic Desig|";
+    }
+
+    99.4% {
+        content: "Graphic De|";
+    }
+
+    99.6% {
+        content: "Graphic|";
+    }
+
+    99.8% {
+        content: "Grap|";
+    }
+
+    100% {
+        content: "|";
+    }
+}
+
+.sec {
+    padding-top: 4rem;
+}
+
+.about-sec .box {
+    -webkit-box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+    padding: 3rem 1.25rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+}
+
+.about-sec .about-image {
+    margin-bottom: 2rem;
+}
+
+.about-sec .about-image img {
+    margin-left: 10px;
+}
+
+.about-sec .info {
+    padding-left: 0;
+}
+
+.about-sec .info .data p {
+    margin-bottom: 1rem;
+}
+
+.about-sec .info .data p span {
+    color: #1e1e1e;
+    font-size: 1.1rem;
+}
+
+.progress {
+    background-color: #cde1f8;
+    margin: 0.5rem 0 1.2rem 0;
+    border-radius: 0;
+    height: 0.7rem;
+}
+
+.title-box {
+    margin-bottom: 3rem;
+}
+
+.title-box h5 {
+    font-size: 2rem;
+    position: relative;
+}
+
+.title-box h5::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+}
+
+section .title-sec {
+    margin-bottom: 4rem;
+}
+
+section .title-sec h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section .title-sec p {
+    color: #4e4e4e;
+}
+
+section .title-sec .under-line {
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+
+.service-box {
+    background-color: #fff;
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    -webkit-box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+    cursor: pointer;
+}
+
+.service-box:hover .ico-circle {
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    color: #fff;
+    background-color: #0078ff;
+    -webkit-box-shadow: 0 0 0 10px #cde1f8;
+    box-shadow: 0 0 0 10px #cde1f8;
+}
+
+.service-box .service-icon {
+    margin-bottom: 1rem;
+    color: #1e1e1e;
+}
+
+.ico-circle {
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    -webkit-box-shadow: 0 0 0 10px #0078ff;
+    box-shadow: 0 0 0 10px #0078ff;
+    display: block;
+    color: black;
+}
+
+.service-box .service-icon .ico-circle {
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.service-box .service-icon .ico-circle i {
+    line-height: 2;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.service-box .service-text h2 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.4rem 0;
+}
+
+.section-counter {
+    background-image: url(../images/counters-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.paralax-mf {
+    position: relative;
+    padding: 8rem 0;
+    -webkit-box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+    background-color: #0078ff;
+}
+
+.counter-box {
+    color: #fff;
+    text-align: center;
+}
+
+.counter-icon {
+    margin-bottom: 1rem;
+}
+
+.counter-box .counter-icon .ico-circle {
+    height: 60px;
+    width: 60px;
+    line-height: 1.8;
+    -webkit-box-shadow: 0 0 0 10px #cde1f8;
+    box-shadow: 0 0 0 10px #cde1f8;
+}
+
+.counter-box .counter-icon .ico-circle i {
+    line-height: 2;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.counter-num {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.work-box {
+    margin-bottom: 3rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: #fff;
+    -webkit-box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+    cursor: pointer;
+}
+
+.work-box:hover .work-img img {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.work-box .work-img {
+    display: block;
+    overflow: hidden;
+}
+
+.work-box .work-img img {
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.work-box .work-content {
+    padding: 2rem 3% 1rem 4%;
+}
+
+.work-box .work-content h2 {
+    font-size: 1.2rem;
+}
+
+.work-box .work-content .more {
+    color: #4e4e4e;
+    font-size: .8rem;
+}
+
+.work-box .work-content .more .category {
+    color: #0078ff;
+}
+
+.work-box .work-content .sign {
+    font-size: 2.5rem;
+    color: #0078ff;
+    float: right;
+    margin-top: 5px;
+}
+
+.testimonials {
+    background-image: url(../images/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-inner .img-name {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 1rem 0;
+    display: block;
+    font-size: 1.4rem;
+}
+
+.carousel-inner .comit {
+    font-size: 2.5rem;
+    color: #0078ff;
+    background-color: #fff;
+    width: 52px;
+    height: 52px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    line-height: 1.6;
+}
+
+.carousel-inner .comit i {
+    line-height: 1.3;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.sec .card-body {
+    padding: 1.25rem;
+}
+
+.card-blog {
+    -webkit-box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+
+.card-blog>img {
+    cursor: pointer;
+}
+
+.card-category-box {
+    position: absolute;
+    text-align: center;
+    top: -16px;
+    left: 15px;
+    right: 15px;
+    line-height: 25px;
+    overflow: hidden;
+}
+
+.card-category {
+    display: inline-block;
+    color: #fff;
+    padding: 8px 15px;
+    overflow: hidden;
+    background-color: #0078ff;
+    border-radius: 4px;
+}
+
+.category {
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: .7rem;
+    letter-spacing: .1px;
+    margin-bottom: 0;
+}
+
+.card-title {
+    color: #1e1e1e;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    font-size: 1.3rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-title:hover {
+    color: #0078ff;
+}
+
+.section-footer {
+    background-image: url(../images/overlay-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    padding: 4rem 0 0 0;
+    margin-top: 4rem;
+}
+
+.footer-content {
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.footer-content:hover {
+    color: #0078ff;
+}
+
+.contact {
+    margin-top: 4rem;
+}
+
+.contact .contact-content {
+    padding: 3rem 1.25rem;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 3rem;
+    z-index: 2;
+    -webkit-box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+
+input,
+button,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+form button {
+    padding: 0.9rem 2.3rem !important;
+    font-size: 1.2rem !important;
+    color: #fff !important;
+    border-color: #cde1f8 !important;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+
+}
+
+form button:hover {
+    -webkit-box-shadow: 0 0 0 4px #cde1f8 !important;
+    box-shadow: 0 0 0 4px #cde1f8 !important;
+}
+
+.info-list {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 2;
+}
+
+.info-list li span {
+    color: #0078ff;
+    margin-right: 10px;
+}
+
+.socials {
+    padding: 1.5rem 0;
+}
+
+.socials ul {
+    margin: 0;
+}
+
+.socials ul li {
+    display: inline-block;
+}
+
+.socials ul li a {
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background-color: transparent;
+}
+
+.socials ul li span {
+    color: #1e1e1e;
+    height: 40px;
+    width: 40px;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    line-height: 1.4;
+    margin: 0 15px 0 0;
+    -webkit-box-shadow: 0 0 0 3px #0078ff;
+    box-shadow: 0 0 0 3px #0078ff;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+}
+
+.socials ul li span:hover {
+    background-color: #0078ff;
+    color: #fff;
+    -webkit-box-shadow: 0 0 0 3px #cde1f8;
+    box-shadow: 0 0 0 3px #cde1f8;
+}
+
+.socials ul li span i {
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 4rem;
+    display: block;
+}
+
+footer .copyright {
+    margin-bottom: 0.3rem;
+}
+
+footer .credits {
+    margin-bottom: 0;
+}
+
+footer .credits a {
+    text-decoration: none;
+    background-color: transparent;
+}
